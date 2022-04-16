@@ -249,7 +249,7 @@ const sendMoney =async()=>{
                 <Button sx={{ mb: 2 }} variant="contained" onClick={sendMoney}>
                   Send money to BillyThai
                 </Button>
-                <Box sx={{ mb: 2 }}>{message}</Box>
+                {/* <Box sx={{ mb: 2 }}>{message}</Box> */}
               </>
             ) : null}
           </Stack>
